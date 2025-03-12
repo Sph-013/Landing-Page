@@ -1,4 +1,4 @@
 ---
-<p align="center">
-<h1>Landing Page (The Odin Project)<h1>
-</p>
+<div align="center">
+<sup>Landing Page (The Odin Project)</sup>
+</div>
