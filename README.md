@@ -7,3 +7,7 @@ An simple [Landing Page](https://sph-013.github.io/Landing-Page/) built with **H
 </div>
 
 ### You can check live preview -> [Here](https://sph-013.github.io/Landing-Page/)
+
+---
+
+Built with ❤️ while learning Full Stack JavaScript
