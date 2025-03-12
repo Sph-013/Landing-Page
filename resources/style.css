@@ -7,36 +7,26 @@
 body, html {
     font-family: Roboto, sans-serif;
     min-height: 100vh;
+    color: white;
     display: flex;
     flex-direction: column;
 }
 
-.hero {
-    background-color: #1F2937;
-    color: white;
-}
+.hero {background-color: #1F2937;}
 
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0 350px;
     padding: 10px 0 150px 0;
 }
 
-.logo {
-    font-weight: 800;
-    font-size: 24px;
-}
+.logo {font-weight: 800; font-size: 24px;}
 
-.menu li {
-    display: inline;
-    margin: 0 5px;
-}
+.menu li {display: inline; margin: 0 5px;}
 
-.menu a {
-    text-decoration: none;
-    color: white;
-}
+.menu a {text-decoration: none; color: white;}
 
 .hero-content {
     display: flex;
@@ -44,16 +34,15 @@ body, html {
     margin: 0 350px;
 }
 
+.hero-content button {color: white;}
+
 .left-text .main {
     font-weight: 900;
     font-size: 48px;
     width: 400px;
 }
 
-.subtext {
-    width: 400px;
-    margin: 8px 0;
-}
+.subtext {width: 400px; margin: 8px 0;}
 
 .image-placeholder {
     background-color: #69717c;
@@ -67,7 +56,6 @@ body, html {
 .left-text button {
     margin-bottom: 150px;
     background-color: #3882F6;
-    color: white;
     font-size: 18px;
     font-weight: 600;
     border-radius: 10px;
@@ -111,6 +99,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: nowrap;
 }
 
 .quote-container .quote {
@@ -118,7 +107,11 @@ figcaption {
     font-weight: 200;
     font-style: italic;
     margin: 0 540px;
+    color: #1F2937;
+    overflow: hidden;
 }
+
+.quote-container .signature {color: #1F2937;}
 
 .quote-container .signature {
     display: flex;
@@ -128,10 +121,12 @@ figcaption {
     font-size: 24px;
 }
 
+.wrapper {display: flex; overflow: hidden;}
+
 .calltocation-container {
     background-color: #3882F6;
     height: 150px;
-    width: 50%;
+    width: 70%;
     margin: 100px 450px;
     border-radius: 10px;
     display: flex;
@@ -140,10 +135,22 @@ figcaption {
     padding: 0 100px;
 }
 
+.calltocation-container .call-header {font-size: 24px; font-weight: 600;}
+.calltocation-container .subtext {width: auto;}
+
+.calltocation-container button {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
 .footer {
     background-color: #1F2937;
     height: 100px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
