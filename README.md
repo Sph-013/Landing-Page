@@ -1,2 +1,4 @@
-# Landing-Page
-Landing Page for TOP Assignment
+---
+<p align="center">
+Landing Page (The Odin Project)
+</p>
